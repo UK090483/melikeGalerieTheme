@@ -1,0 +1,15 @@
+.wp-block-button {
+  .wp-block-button__link {
+    background-color: $fc1;
+    text-decoration: none;
+  }
+  .wp-block-button__link:hover {
+  }
+}
+.is-style-outline {
+  .wp-block-button__link {
+    background-color: transparent;
+    border-color: $fc1;
+    color: $fc1;
+  }
+}

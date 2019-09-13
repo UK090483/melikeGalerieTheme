@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="lds-facebook" preserveAspectRatio="xMidYMid" style="background:none" viewBox="0 0 100 100">
+    <rect width="5" height="25.0606" x="12.5" y="37.4697" fill="#442317" ng-attr-fill="{{config.c1}}" ng-attr-height="{{config.height}}" ng-attr-width="{{config.width}}" ng-attr-x="{{config.x1}}" ng-attr-y="{{config.y}}">
+        <animate attributeName="y" begin="-0.7000000000000001s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="14;40;40"/>
+        <animate attributeName="height" begin="-0.7000000000000001s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="72;20;20"/>
+    </rect>
+    <rect width="5" height="28.7963" x="37.5" y="35.6019" fill="#782f19" ng-attr-fill="{{config.c2}}" ng-attr-height="{{config.height}}" ng-attr-width="{{config.width}}" ng-attr-x="{{config.x2}}" ng-attr-y="{{config.y}}">
+        <animate attributeName="y" begin="-0.35000000000000003s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="20.5;40;40"/>
+        <animate attributeName="height" begin="-0.35000000000000003s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="59;20;20"/>
+    </rect>
+    <rect width="5" height="31.1908" x="62.5" y="34.4046" fill="#a74422" ng-attr-fill="{{config.c3}}" ng-attr-height="{{config.height}}" ng-attr-width="{{config.width}}" ng-attr-x="{{config.x3}}" ng-attr-y="{{config.y}}">
+        <animate attributeName="y" begin="0s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="27;40;40"/>
+        <animate attributeName="height" begin="0s" calcMode="spline" dur="5.5" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" values="46;20;20"/>
+    </rect>
+</svg>

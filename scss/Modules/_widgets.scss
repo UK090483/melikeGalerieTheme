@@ -1,0 +1,22 @@
+// .footer-widgets-wrap {
+//   // padding: 30px 0;
+//   // border: red solid 1px;
+//   margin-bottom: 60px;
+// }
+
+.footer-widgets-wrap {
+  .footer-widget-column {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      justify-content: flex-start;
+      text-align: initial;
+    }
+  }
+}
+
+.simple-social-icons {
+  margin: 25px 0;
+}

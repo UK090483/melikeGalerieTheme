@@ -1,0 +1,12 @@
+.ku-post-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ku-post {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
