@@ -1,9 +1,12 @@
 .align-wrap {
   width: 100vw;
+  overflow: hidden;
+  max-width: 100vw;
   margin-left: calc(50% - 50vw);
 }
 
 .align-wrap .alignfull {
+
   width: 100%;
   max-width: 100%;
   margin: 0 auto;

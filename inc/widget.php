@@ -65,7 +65,7 @@ class wpb_widget extends WP_Widget
             $link = __('New title', 'wpb_widget_domain');
         }
 
-        cl($instance);
+       
 // Widget admin form
         $icons = array_diff(scandir(get_template_directory() . '/svg'), array('..', '.'));
 

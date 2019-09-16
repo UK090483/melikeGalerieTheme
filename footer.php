@@ -3,6 +3,29 @@
     <footer class="blog-footer">
 <hr>
 
+
+<?php 
+// the query
+$the_query = new WP_Query( array('pagename'=>'footer') ); ?>
+ 
+<?php if ( $the_query->have_posts() ) : ?>
+ 
+    <!-- pagination here -->
+ <div class='container'>
+    <!-- the loop -->
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+	
+		<?php the_content(); ?>
+    <?php endwhile; ?>
+    <!-- end of the loop -->
+ 
+    <!-- pagination here -->
+</div>
+    <?php wp_reset_postdata(); ?>
+<?php endif; ?>
+
+
+
 <?php
 // Check if there are footer widgets.
 if (is_active_sidebar('footer-1') or is_active_sidebar('footer-2') or is_active_sidebar('footer-3') or is_active_sidebar('footer-4')): ?>

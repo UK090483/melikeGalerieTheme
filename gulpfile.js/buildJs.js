@@ -32,7 +32,7 @@ function buildJs() {
       })
     )
     .pipe(dest(JSDest))
-    .pipe(browserSyncInstance.stream());
+    //.pipe(browserSyncInstance.stream());
 }
 
 watch([WhatchSource], buildJs);
