@@ -39,6 +39,7 @@ require get_template_directory() . '/inc/widget.php';
 require get_template_directory() . '/inc/footerwidgets.php';
 require get_template_directory() . '/inc/aligneWide.php';
 require get_template_directory() . '/inc/NavColor.php';
+require get_template_directory() . '/inc/disableComments.php';
 
 ?>
 

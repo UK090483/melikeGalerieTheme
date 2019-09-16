@@ -1,3 +1,16 @@
-hr {
-  border-top: solid 6px $fc1;
+footer{
+
+  hr {
+    border-top: solid 6px $fc1;
+  }
+
+  p{
+    @media (max-width: 600px) {
+      text-align: center
+    }
+  
+  }
 }
+
+
+

@@ -42,6 +42,7 @@ if (nav) {
     nav.classList.remove("scrolled");
     nav_mob.classList.add("nav--open");
     nav_btn.classList.add("nav--mobile-btn-open");
+    nav.classList.add("nav--mobile-open");
     body.style.overflow = "hidden";
     stopBodyScrolling(true);
   }
@@ -51,6 +52,7 @@ if (nav) {
     stopBodyScrolling(false);
     nav_mob.classList.remove("nav--open");
     nav_btn.classList.remove("nav--mobile-btn-open");
+    nav.classList.remove("nav--mobile-open");
     add_scroled_class();
   }
 

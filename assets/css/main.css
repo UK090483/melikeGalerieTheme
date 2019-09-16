@@ -1325,6 +1325,10 @@ nav {
     border-color: #292828;
     height: 50px;
     background-color: white; }
+  nav.nav--mobile-open {
+    color: #292828;
+    fill: #292828;
+    border-color: #292828; }
   nav .nav {
     display: flex;
     justify-content: flex-start;
@@ -1601,8 +1605,12 @@ nav {
 .simple-social-icons {
   margin: 25px 0; }
 
-hr {
+footer hr {
   border-top: solid 6px #292828; }
+
+@media (max-width: 600px) {
+  footer p {
+    text-align: center; } }
 
 @-webkit-keyframes pageIn {
   from {

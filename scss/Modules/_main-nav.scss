@@ -26,6 +26,12 @@ nav {
     height: 50px;
     background-color: $nav-backgroundcolor-scrolled;
   }
+  &.nav--mobile-open{
+    color: $fc1;
+    fill: $fc1;
+    border-color: $fc1;
+
+  }
 
   transition: background-color $nav-transition, height $nav-transition,
     top 800ms;
@@ -167,6 +173,7 @@ nav {
     @media screen and (min-width: $nav-breackingpoint) {
       display: none;
     }
+
   }
   .nav--mobile-btn-custom {
     width: 90%;
