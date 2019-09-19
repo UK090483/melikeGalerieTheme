@@ -1,7 +1,7 @@
 
 <?php
 
-function ku_scripts()
+function melike_gallery_theme_scripts()
 {
 
     wp_enqueue_style('main', get_template_directory_uri() . '/public/css/main.css');
@@ -11,20 +11,12 @@ function ku_scripts()
 
     }
 }
-add_action('wp_enqueue_scripts', 'ku_scripts');
 
-// add_action('enqueue_block_editor_assets', 'photographus_add_gutenberg_assets');
+add_action('wp_enqueue_scripts', 'melike_gallery_theme_scripts');
 
-// /**
-//  * Load Gutenberg stylesheet.
-//  */
-// function photographus_add_gutenberg_assets()
-// {
-//     // Load the theme styles within Gutenberg.
-//     wp_enqueue_style('ku-main-admin', get_template_directory_uri() . '/assets/css/main.css');
-// }
 
-function register_my_menus()
+
+function  melike_gallery_theme_register_menus()
 {
     register_nav_menus(
         array(
@@ -33,7 +25,7 @@ function register_my_menus()
         )
     );
 }
-add_action('init', 'register_my_menus');
+add_action('init', 'melike_gallery_theme_register_menus');
 
 require get_template_directory() . '/inc/widget.php';
 require get_template_directory() . '/inc/footerwidgets.php';

@@ -113,7 +113,7 @@ class NavColor
           Dark
         </label>
 
-        <input type="radio" id="dark" name="myplugin_new_field"  <?php echo $value == 'dark' ? 'checked' : '' ?>  value='dark' size="25" />
+        <input type="radio" id="dark" name="myplugin_new_field"  <?php echo ($value == 'dark' OR $value == '' ) ? 'checked' : '' ?>  value='dark' size="25" />
 
 
         <label for="bright">

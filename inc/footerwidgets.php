@@ -4,7 +4,7 @@
  *
  * @return void
  */
-function theme_slug_register_footer_widgets()
+function melike_gallery_theme_register_footer_widgets()
 {
     // Register Footer Column 1 widget area.
     register_sidebar(array(
@@ -47,4 +47,4 @@ function theme_slug_register_footer_widgets()
         'after_title' => '</h3>',
     ));
 }
-add_action('widgets_init', 'theme_slug_register_footer_widgets', 20);
+add_action('widgets_init', 'melike_gallery_theme_register_footer_widgets', 20);

@@ -1,13 +1,17 @@
 <?php
 
-function mytheme_setup()
+function melike_gallery_theme_align_setup()
 {
 
     add_theme_support('align-wide');
 }
-add_action('after_setup_theme', 'mytheme_setup');
+add_action('after_setup_theme', 'melike_gallery_theme_align_setup');
 
-function themeprefix_wrap_alignment($block_content, $block)
+
+
+
+
+function melike_gallery_theme_themeprefix_wrap_alignment($block_content, $block)
 {
 
     if (isset($block['attrs']['align']) && in_array($block['attrs']['align'], array('wide', 'full'))) {
@@ -20,4 +24,4 @@ function themeprefix_wrap_alignment($block_content, $block)
     return $block_content;
 }
 
-add_filter('render_block', 'themeprefix_wrap_alignment', 10, 2);
+add_filter('render_block', 'melike_gallery_theme_themeprefix_wrap_alignment', 10, 2);
